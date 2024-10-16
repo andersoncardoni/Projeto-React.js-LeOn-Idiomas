@@ -91,6 +91,21 @@ export const Container = styled.div`
   gap: 30px;
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.5722214362524838) 200%);
 
+
+  @media(max-width: 660px) {
+    height: 320px;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  @media(max-width: 650px) {
+    height: 400px;
+  }
+
   @media(max-width: 467px) {
     margin-top: 68px;
   }
@@ -112,13 +127,9 @@ h2 {
   }
 
   @media(max-width: 650px) {
-    font-size: 10px;
+    font-size: 15px;
   }
 
-  @media(max-width: 462px) {
-    font-size: 8px;
-  }
-  
  
 }
 
@@ -178,21 +189,8 @@ export const TextContainer = styled.p`
     font-size: 14px;
   }
 
-  @media(max-width: 604px) {
-    font-size: 11px;
-  }
-
-  @media(max-width: 660px) {
-    font-size: 10px;
-  }
-
-  @media(max-width: 500px) {
-    font-size: 8px;
-  }
-
-  @media(max-width: 405px) {
-    font-size: 7px ;
-  }
+  
+  
 
 `
 
@@ -215,7 +213,7 @@ export const Section = styled.section`
 
   
   @media(max-width: 512px) {
-    margin-top: 300px;
+    margin-top: 350px;
     height: 800px;
     gap: 50px;
   }
@@ -374,7 +372,7 @@ export const ZoomPlatform = styled.section`
   border-top: 2px solid blue;
   border-bottom: 2px solid blue;
   width: 100%;
-  height: 900px;
+  height: 1000px;
   margin: 20px 0 10px;
   color: #fff;
   gap: 20px;
