@@ -80,7 +80,7 @@ function Home() {
         </div>
 
 
-        <div style={{ marginLeft: '10px'}}>
+        <div>
           <h4>Unidade Embu das Artes - SP</h4>
 
           <img src={ImageSala1} alt="img-sala" />
