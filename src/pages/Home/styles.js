@@ -374,7 +374,7 @@ export const ZoomPlatform = styled.section`
   border-top: 2px solid blue;
   border-bottom: 2px solid blue;
   width: 100%;
-  height: 700px;
+  height: 900px;
   margin: 20px 0 10px;
   color: #fff;
   gap: 20px;
