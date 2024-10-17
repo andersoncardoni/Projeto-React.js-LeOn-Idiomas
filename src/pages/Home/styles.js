@@ -203,6 +203,7 @@ export const Section = styled.section`
   margin-top: 330px;
   height: 500px;
   gap: 20px;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 90%, black 100%);
 
   @media(max-width: 860px) {
     flex-direction: column;
@@ -249,13 +250,6 @@ img {
   height: 100%;
   border-radius: 15px;
 
-  @media(max-width: 512px) {
-    width: 90%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-  }
-
 }
 
 div {
@@ -267,6 +261,10 @@ div {
   width: 40%;
   border-radius: 15px;
   border: 5px solid black;
+
+  @media(max-width: 860px) {
+    height: 50%;
+  }
 
  
   h3 {
@@ -285,7 +283,14 @@ div {
   margin: 20px 40px 20px;
   font-size: 20px;
 
-  
+  @media(max-width: 860px) {
+    font-size: 30px;
+  }
+
+  @media(max-width: 654px) {
+    font-size: 25px;
+  }
+
   @media(max-width: 512px) {
     font-size: 15px;
   }
@@ -362,8 +367,6 @@ button {
 `
 
 
-
-
 export const ZoomPlatform = styled.section`
 
   display: flex;
@@ -378,9 +381,16 @@ export const ZoomPlatform = styled.section`
   gap: 20px;
   background: linear-gradient(229deg, rgba(0,0,0,0.8814699911657785) 5%, rgba(255,0,0,0.7959558823529411) 150%);
 
+  @media(max-width: 930px){
+    height: 700px;
+  }
 
   @media(max-width: 660px) {
     height: 450px;
+  }
+
+  @media(max-width: 377px) {
+    padding: 10px;
   }
 
 a{
@@ -393,6 +403,10 @@ a{
 img {
   border-radius: 40px;
   width: 50%;
+
+  @media(max-width: 550px) {
+    width: 85%;
+  }
 }
 
 p {
@@ -406,9 +420,12 @@ p {
     font-size: 15px;
   }
 
-  @media(max-width: 430px) {
-    font-size: 13px;
+  @media(max-width: 439px) {
+    font-size: 17px;
   }
+
+
+
 }
 
 button {
@@ -426,8 +443,21 @@ button {
     
   }
 
+  @media(max-width: 860px) {
+    width: 15%;
+
+    a{
+      font-size: 13px;
+    }
+  }
+
   @media(max-width: 740px) {
     width: 20%;
+  }
+
+  @media(max-width: 551px) {
+    width: 25%;
+    height: auto;
   }
 
   @media(max-width: 412px) {
@@ -464,6 +494,10 @@ button {
   &:hover {
     transition: all .4s;
     
+  }
+
+  @media(max-width: 930px) {
+    width: 30%;
   }
 
   @media(max-width: 740px) {

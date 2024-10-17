@@ -1,6 +1,6 @@
 import {
   Header, LogoBox, Container, Q1, Q2, Q3, TextContainer, Article, StudyOn, Section, Footer,
-  DivContact, ZoomPlatform, Certificate, SocialMedia, PagMoney
+  DivContact, ZoomPlatform, Certificate, SocialMedia, PagMoney, ImageSection
 } from "./styles"
 import ImageHeader from "../../assets/banner1.png"
 import ImageLogo from "../../assets/logo1.png"
@@ -80,12 +80,12 @@ function Home() {
         </div>
 
 
-        <div>
+        <ImageSection>
           <h4>Unidade Embu das Artes - SP</h4>
 
           <img src={ImageSala1} alt="img-sala" />
 
-        </div>
+        </ImageSection>
 
       </Section>
 
@@ -93,7 +93,7 @@ function Home() {
       <ZoomPlatform>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '30px', width: '100%', justifyContent: 'center' }}>
-          <p>Nossas aulas online são trasnmitidas através do </p>
+          <p>Nossas aulas online são trasnmitidas através da plataforma Zoom.</p>
           <img src={ZoomLogo} style={{ width: '20%' }} alt="zoom-pc" />
         </div>
 
@@ -105,7 +105,7 @@ function Home() {
         <img src={ZoomPc} style={{ border: '1px solid blue' }} alt="zoom-pc" />
 
         <DivContact>
-          <p>Não conseguiu acessar a plataforma ? Fale com nosso suporte.</p>
+          <p>Não conseguiu acessar a plataforma ? Fale com nosso suporte!</p>
 
           <div style={{ display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center', gap: '10px' }}>
             <button><a href="https://api.whatsapp.com/send?phone=5511992174252" target="_blank">Falar com suporte online</a></button>
